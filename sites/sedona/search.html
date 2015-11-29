@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona</title>
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+  <div class="page-container">
+    <header class="page-header">
+      <nav class="page-navigation">
+        <ul>
+          <li><a href="index.html">Информация</a></li><!--
+       --><li><a href="#">Фото и видео</a></li><!--
+       --><li><a class="logo" href="#"><img src="image/img-logo.png" width="138" height="70" alt="logo"></a></li><!--
+       --><li><a href="#">Карта штата</a></li><!--
+       --><li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="index-container index-container-search">        
+      <div class="search-form search-form-alternative">
+        <form action="/echo" method="post">                      
+          <label for="date-in">Дата заезда:</label><!--
+       --><input type="date" name="date-in" id="date-in" value="2014-04-24"><!--
+       --><label for="date-out">Дата выезда:</label><!--                 
+       --><input type="date" name="date-out" id="date-out" value="2014-07-04"><!--
+       --><label for="grown">Взрослые:</label><!--
+       --><input type="number" name="grown" id="grown" value="2"><!--
+       --><label for="baby" class="field-left">Дети:</label><!--
+       --><input type="number" name="baby" id="baby" value="0">
+          <button type="submit" class="btn blue-btn">Найти</button>
+        </form>
+      </div>                
+    </div>
+
+    <footer class="page-footer">
+      <div class="footer-heshteg">
+        #Visitsedona
+      </div><!--
+   --><div class="footer-social">
+        <a href="https://twitter.com/" class="social-btn blue-btn icon-twitter" target="_blank"></a>
+        <a href="https://www.facebook.com/" class="social-btn blue-btn icon-facebook" target="_blank"></a>
+        <a href="https://www.youtube.com/" class="social-btn blue-btn icon-youtube" target="_blank"></a>
+      </div><!--
+   --><div class="footer-copyright">
+        <p>Website by<a href="http://glukhanko.ru/" class="copyright-btn bookmark" target="_blank">A</a>for<a href="https://htmlacademy.ru" class="copyright-btn academy" target="_blank">H</a></p>
+      </div>
+    </footer>
+  </div> 
+   
+  </body>
+</html>

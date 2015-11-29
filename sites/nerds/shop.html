@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Nerds</title>
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <section class="header-link clearfix">          
+          <a class="logo" href="index.html"><img src="image/img-logo.png" width="139" height="56" alt="Nerds"></a>          
+          <nav class="page-navigation">
+            <ul>              
+              <li><a href="index.html">Студия</a></li>
+              <li><a href="#">Клиенты</a></li>            
+              <li class="active"><a href="#">Магазин</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#"><span class="icon-basket"></span>Корзина</a></li>
+            </ul>
+          </nav>           
+        </section>
+        <h1 class="inner-page-title">Добро пожаловать в магазин готовых макетов</h1>
+      </div>
+    </header>
+
+    <div class="container content-shop clearfix">
+      <section class="shop-column-left">
+        <form class="filter-form" action="/echo" method="post">
+          <div class="filter-group">
+            <h3>Стоимость:</h3>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale"><div style="margin-left:50px;width:100px;" class="bar"></div></div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+              </div>
+              <div class="price-controls">
+                от<input class="min-price" type="text" value="5 000"><!--
+             -->до<input class="max-price" type="text" value="15 000">
+              </div>
+            </div>
+          </div>
+          
+          <div class="filter-group">
+            <h3>Сетка:</h3>
+            <input type="radio" name="groups" value="grid-responsive" id="grid-responsive" checked><label for="grid-responsive">Адаптивная</label>
+            <input type="radio" name="groups" value="grid-fixed" id="grid-fixed"><label for="grid-fixed">Фиксированная</label>
+            <input type="radio" name="groups" value="grid-elastic" id="grid-elastic"><label for="grid-elastic">Резиновая</label>
+          </div>
+          
+          <div class="filter-group">
+            <h3>Особенности:</h3>
+            <input type="checkbox" name="f-slider" id="f-slider" checked><label for="f-slider">Слайдер</label>
+            <input type="checkbox" name="f-advantage" id="f-advantage"><label for="f-advantage">Блок преимуществ</label>
+            <input type="checkbox" name="f-news" id="f-news" checked><label for="f-news">Новости</label>
+            <input type="checkbox" name="f-gallery" id="f-gallery"><label for="f-gallery">Галерея</label>
+            <input type="checkbox" name="f-basket" id="f-basket"><label for="f-basket">Корзина</label>   
+          </div>
+                 
+          <button type="submit" class="btn gray">Показать</button>
+        </form>
+      </section>  
+
+      <section class="shop-column-right">
+        <div class="sorting clearfix">
+          <ul class="sorting-text">
+            <li class="title-sorting">Сортировать:</li>
+            <li class="active" ><a href="#">по цене</a></li>
+            <li><a href="#">по типу</a></li>
+            <li><a href="#">по функционалу</a></li>
+          </ul>
+          <div class="sorting-arrows">              
+            <a class="arrow-down active" href="#">по убыванию</a>
+            <a class="arrow-up" href="#">по возрастанию</a>
+          </div>
+        </div>
+        <div class="catalog-items">
+          <div class="catalog-item">
+            <div class="browser">
+              <div class="points"></div>
+            </div>
+            <div class="tooltip">
+              <div class="title">Sunset</div>
+              <div class="description">Интернет-магазин с личным кабинетом</div>
+              <a href="" class="btn red">10 000 р.</a>
+            </div>
+            <div class="image">
+              <img src="image/img-catalog-aviator.jpg" height="240" width="240" alt="aviator">
+            </div>
+          </div><!--
+       --><div class="catalog-item">
+            <div class="browser">
+              <div class="points"></div>
+            </div>
+            <div class="tooltip">
+              <div class="title">Rise</div>
+              <div class="description">Интернет-магазин с личным кабинетом</div>
+              <a href="" class="btn red">10 000 р.</a>
+            </div>
+            <div class="image">
+              <img src="image/img-catalog-2.jpg" height="240" width="240" alt="Rise">
+            </div>
+          </div><!--
+       --><div class="catalog-item">
+            <div class="browser">
+              <div class="points"></div>
+            </div>
+            <div class="tooltip">
+              <div class="title">Forte</div>
+              <div class="description">Интернет-магазин с личным кабинетом</div>
+              <a href="" class="btn red">10 000 р.</a>
+            </div>
+            <div class="image">
+              <img src="image/img-catalog-forte.jpg" height="240" width="240" alt="Forte">
+            </div>
+          </div><!--
+       --><div class="catalog-item">
+            <div class="browser">
+              <div class="points"></div>
+            </div>
+            <div class="tooltip">
+              <div class="title">Marquee</div>
+              <div class="description">Интернет-магазин с личным кабинетом</div>
+              <a href="" class="btn red">10 000 р.</a>
+            </div>
+            <div class="image">
+              <img src="image/img-catalog-marquee.jpg" height="240" width="240" alt="Marquee">
+            </div>
+          </div><!--
+       --><div class="catalog-item">
+            <div class="browser">
+              <div class="points"></div>
+            </div>
+            <div class="tooltip">
+              <div class="title">Avenue</div>
+              <div class="description">Интернет-магазин с личным кабинетом</div>
+              <a href="" class="btn red">10 000 р.</a>
+            </div>
+            <div class="image">
+              <img src="image/img-catalog-avenue.jpg" height="240" width="239" alt="Avenue">
+            </div>
+          </div><!--
+       --><div class="catalog-item">
+            <div class="browser">
+              <div class="points"></div>
+            </div>
+            <div class="tooltip">
+              <div class="title">Dovetail</div>
+              <div class="description">Интернет-магазин с личным кабинетом</div>
+              <a href="" class="btn red">10 000 р.</a>
+            </div>
+            <div class="image">
+              <img src="image/img-catalog-dovetail.jpg" height="240" width="239" alt="Dovetail">
+            </div>
+          </div>
+        </div>
+        <div class="paginator">
+          <a href="#" class="btn gray active">1</a><!--
+       --><a href="#" class="btn gray">2</a><!--
+       --><a href="#" class="btn gray">3</a><!--
+       --><a href="#" class="btn gray next">Следующая</a>
+        </div>
+      </section>              
+    </div>
+
+    <footer class="page-footer">
+      <section class="footer-map">
+        <div class="container clearfix">
+          <div class="contact">
+            <h3>NЁrds design studio</h3>
+            <p>350000, Краснодар,<br>
+            ул. Головатого, 100</p>
+            <p>тел. +7 (861) 275-75-75</p>
+            <a href="#" class="btn red">Напишите нам</a>
+          </div>          
+        </div>
+        <div id="map-nerds" class="map-container"><img class="static-map" src="image/img-static-map.jpg" width="880" height="416" alt="map of Nerds"></div>        
+      </section>
+      <section class="footer-row">
+        <div class="container clearfix">
+          <div class="footer-social">
+            <a href="#" class="social-btn icon-vk"></a>
+            <a href="#" class="social-btn icon-facebook"></a>
+            <a href="#" class="social-btn icon-instagramm"></a>
+          </div>
+          <div class="footer-slogan">
+            <div class="slogan">Давайте дружить, это выгодно!</div>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </div>
+      </section>      
+    </footer>
+
+    <div class="writeus">            
+      <div class="cross-btn red"><img src="image/img-writeus-cross.png" width="21" height="21" alt="close"></div>
+      <form class="letter-form" action="/echo" method="post">
+        <div class="half-width">
+            <label for="login">Ваше имя:</label>
+            <input type="text" id="login" name="login" placeholder="Представьтесь, пожалуйста">
+        </div><!--
+     --><div class="half-width">
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Для отправки ответа">
+        </div><br>
+        <label for="letter">Текст письма:</label>
+        <textarea id="letter" name="letter" rows="5" placeholder="В свободной форме"></textarea><br>
+        <button type="submit" class="btn red">Отправить</button><!--
+     --><button type="reset" class="btn gray">Отмена</button>
+      </form>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script> 
+    <script src="js/script.min.js"></script>
+  </body>
+</html>

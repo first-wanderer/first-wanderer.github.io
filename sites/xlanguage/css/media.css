@@ -1,0 +1,201 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.heder-title .phone{
+		display: none;
+	}
+	.header-centred h1 {
+		margin-top: 140px;
+		font-size: 2em;
+	}
+	.header-centred .descr {
+		font-size: 1.3em;
+	}
+	.s-questions .question-centred {
+		width: 720px;		
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	body {		
+	  font-size: 12px;	   
+	}
+	.heder-title h3 {
+		display: none;
+	}
+	.heder-title ul {
+		display: none;
+		position: absolute;
+		background: #fff;
+		width: 170px;
+		z-index: 10;
+		left: 50%;
+		margin-left: -80px;
+	}
+	.heder-title li {
+		display: block;
+	}
+	.header-centred h1 {
+		margin-top: 10px;		
+		text-align: center;
+	}
+	.header-centred h1:after {
+		display: none;
+	}
+	.header-centred .descr {
+		display: none;
+	}
+	.header-centred .discount {
+		width: 290px;
+		margin: 0 auto;
+		padding: 10px 25px;
+	}
+	.s-features .col-sm-4 {
+		float: left;
+		width: 50%;
+	}
+	section {
+		padding-top: 30px;
+		padding-bottom: 25px;
+	}
+	section h2 {
+		font-size: 1.8em;		
+		margin-bottom: 20px;
+	}
+	.course p {		
+		min-height: 100px;
+	}
+	.s-text p {
+		font-size: 1.3em;
+	}
+	.s-tutorial h2 {		
+		font-size: 1.8em;
+		margin-bottom: 20px;
+	}
+	.s-questions .question-centred {
+		width: 290px;		
+	}
+	.s-questions .faces {
+		display: none;
+	}
+	.leader .face-4 {
+		width: 58px;
+		height: auto;
+	}
+	.leader .post {
+		width: 225px;
+	}
+	.leader::after {		
+		bottom: -20px;
+		left: 35px;		
+	}
+	.help .title {
+			width: 150px;
+	}
+	.help .subtitle {
+		margin-bottom: 20px;
+	}
+	.help .taright {
+		text-align: left;
+	}
+	.help .phone {
+		font-size: 2em;
+	}
+	.help .btn {
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.page-footer {
+		padding-top: 40px;
+		padding-bottom: 30px;	
+	}
+	.s-questions .head {		
+		font-size: 1.8em;		
+	}
+}
+
+/* custom for course */
+@media only screen and (max-width : 550px) {
+	.s-courses .col-xs-6 {
+		float: none;
+		margin: 0 auto;
+		width: auto;
+	}	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+	.heder-title .title {		
+		padding: 7px 7px;
+		font-size: .9em;
+	}
+	.s-features .col-sm-4 {
+		float: none;
+		width: auto;
+	}
+	.s-features .hidden-480 {
+		display: none;
+	}	
+	.slide {			
+		width: 290px;			
+	}
+	.slide img {
+		width: 82px;
+		height: 82px;
+	}
+	.slide .title {
+		margin-left: 41px;
+		padding: 20px 0 5px 10px;	
+		font-size: 11px;
+	}
+	.slide .descr {
+		margin-left: 41px;
+		padding: 5px;
+		font-size: 10px;		
+	}
+	.slide .expand {		
+		margin-left: 110px;		
+	}	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.heder-title .menu {
+		display: none;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
