@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Academy: pink</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="page-header index-header">
+    <nav class="page-nav clearfix">
+      <div class="l-container clearfix">
+        <a href="index.html" class="logo-link">
+          <span class="svg-logotype_white_mobile">Logotype</span>
+          <span class="svg-logotype_white_tablet">Logotype</span>
+          <span class="svg-logotype_white_desktop">Logotype</span>
+        </a>
+        <a href="#" class="nav-toggle">
+          <span class="svg-menu_burger">Menu</span>
+          <span class="svg-menu_cross">Close</span>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="#s-info">Информация</a></li><!-- 
+       --><li><a href="#s-abilitys">Возможности</a></li><!-- 
+       --><li><a href="#s-reviews">Отзывы</a></li><!-- 
+       --><li><a href="#s-price">Стоимость</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="l-container">
+      <div class="header-intro">
+        <h1>Взгляните на жизнь иначе!</h1>
+				<picture>
+					<source
+						media="(min-width: 980px)"
+						srcset="img/iphone-hand-desktop@1x.png 1x,
+						img/iphone-hand-desktop@2x.png 2x">
+					<source
+						media="(min-width: 660px)"
+						srcset="img/iphone-hand-tablet@1x.png 1x,
+						img/iphone-hand-tablet@2x.png 2x">
+					<img src="img/iphone-hand-mobile.png"
+							 srcset="img/iphone-hand-mobile@2x.png 2x,
+							 img/iphone-hand-mobile@3x.png 3x" alt="Intro">
+				</picture>        
+      </div>
+    </div>
+
+    <div class="l-container clearfix wrap-bg">
+      <div id="s-info" class="header-info">
+        <a href="#" class="btn-download">Скачать приложение</a>
+        <div class="info-download">
+          <a href="#" class="link-download svg-apple_logo">для OS X</a>
+          <a href="#" class="link-download svg-android_logo">для Android</a>
+          <a href="#" class="link-download svg-microsoft_logo">для Windows</a>
+        </div>
+        <p class="info-descr">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+    </div>
+  </header>
+
+
+
+  <div class="index-content">
+    <section id="s-abilitys" class="s-abilitys">
+      <div class="l-container">
+        <div class="question">
+          Устали от серости мегаполиса?
+        </div>
+        <div class="question">
+          Нам есть, что вам предложить!
+        </div>
+      </div>
+      <div class="angle-invert">
+        <div class="l-container flex-container">          
+          <div class="ability-wrap flex-in-flex">
+            <div class="ability">
+              <h2 class="ability-title">Поднимает настроение</h2>
+              <p class="ability-descr">Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
+            </div>
+            <div class="ability">
+              <h2 class="ability-title">Меняет мир вокруг</h2>
+              <p class="ability-descr">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </div>
+            <div class="ability">
+              <h2 class="ability-title">Заводит новых друзей</h2>
+              <p class="ability-descr">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+            </div>
+          </div>
+          <div class="ability-hello flex-in-flex">
+            <picture>
+							<source
+								media="(min-width: 980px)"
+								srcset="img/iphone-screen-desktop-1@1x.png 1x,
+								img/iphone-screen-desktop-1@2x.png 2x">
+							<source
+								media="(min-width: 660px)"
+								srcset="img/iphone-screen-tablet-1@1x.png 1x,
+								img/iphone-screen-tablet-1@2x.png 2x">
+							<img src="img/screen-mobile-1.png" alt="Screen-1">
+						</picture>
+
+						<picture>
+							<source
+								media="(min-width: 980px)"
+								srcset="img/iphone-screen-desktop-2@1x.png 1x,
+								img/iphone-screen-desktop-2@2x.png 2x">
+							<source
+								media="(min-width: 660px)"
+								srcset="img/iphone-screen-tablet-1@1x.png 1x,
+								img/iphone-screen-tablet-2@2x.png 2x">
+							<img src="img/screen-mobile-2.png" alt="Screen-2">
+						</picture>
+
+						<picture>
+							<source
+								media="(min-width: 980px)"
+								srcset="img/iphone-screen-desktop-3@1x.png 1x,
+								img/iphone-screen-desktop-3@2x.png 2x">
+							<source
+								media="(min-width: 660px)"
+								srcset="img/iphone-screen-tablet-3@1x.png 1x,
+								img/iphone-screen-tablet-3@2x.png 2x">
+							<img src="img/screen-mobile-3.png" alt="Screen-3">
+						</picture>            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-effect" class="s-effect">
+      <div class="l-container clearfix">
+        <div class="l-effect-l">
+          <div class="timer-24">24</div>
+        </div>
+        <div class="l-effect-r">
+          <div class="effect-title">Эффект на 24 часа!</div>
+          <p class="effect-descr">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+          <a href="#" class="effect-link">Узнать больше об исследовании</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-reviews" class="s-reviews">
+      <div class="l-container">
+        <div class="slider-reviews">
+          <div class="slider-wrap clearfix">
+            <div class="slider-item flex-container">
+              <h2 class="review-title">Николай Петров</h2>
+              <div class="review-subtitle">25 лет, водитель трамвая</div>
+              <p class="review-text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+            <div class="slider-item flex-container">
+              <h2 class="review-title">Николай Петров</h2>
+              <div class="review-subtitle">25 лет, водитель трамвая</div>
+              <p class="review-text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+            <div class="slider-item flex-container">
+              <h2 class="review-title">Николай Петров</h2>
+              <div class="review-subtitle">25 лет, водитель трамвая</div>
+              <p class="review-text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+          </div>          
+          <ul class="slider-pagination">
+            <li class="is-slide-active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <div class="slider-control">
+            <div class="prev-btn svg-review_arrow_left disabled">Prev</div>
+            <div class="next-btn svg-review_arrow_right">Next</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-price" class="s-price angle-invert">
+      <div class="l-container">
+        <div class="slider-price">
+          <table class="price-table">
+            <tr>
+              <th>&nbsp;</th>
+              <th colspan="2">
+                <div class="price-tarif">База</div>
+                <div class="price-rate">3,99&nbsp;USD</div>
+              </th>
+              <th colspan="2">
+                <div class="price-tarif">Стандарт</div>
+                <div class="price-rate">3,99&nbsp;USD</div>
+              </th>
+              <th colspan="2">
+                <div class="price-tarif">Анлим</div>
+                <div class="price-rate">3,99&nbsp;USD</div>
+              </th>
+            </tr>
+            <tr>
+              <td>Розовый фильтр</td>
+              <td>Розовый фильтр</td>
+              <td class="option-yes">yes</td>
+              <td>Розовый фильтр</td>
+              <td class="option-yes">yes</td>
+              <td>Розовый фильтр</td>
+              <td class="option-yes">yes</td>
+            </tr>
+            <tr>
+              <td>Смайлики</td>
+              <td>Смайлики</td>
+              <td class="option-no">no</td>
+              <td>Смайлики</td>
+              <td class="option-yes">yes</td>
+              <td>Смайлики</td>
+              <td class="option-yes">yes</td>
+            </tr>
+            <tr>
+              <td>Комментарии</td>
+              <td>Комментарии</td>
+              <td class="option-no">no</td>
+              <td>Комментарии</td>
+              <td class="option-no">no</td>
+              <td>Комментарии</td>
+              <td class="option-yes">yes</td>
+            </tr>
+          </table>
+          <ul class="slider-pagination">
+            <li></li>
+            <li class="is-slide-active"></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>      
+    </section>
+  </div>
+
+
+
+  <footer class="page-footer index-footer">
+    <div class="footer-contacts">
+      <div class="l-container">
+        <div class="question">
+          Остались вопросы?<br>Свяжитесь с нами!
+        </div>
+        <div class="flex-container">
+          <div class="contact">
+            <div class="contact-title">Звоните:</div>
+            <a href="tel:+78125556666" class="contact-value">+7 (812) 555-66-66</a>
+          </div>
+          <div class="contact">
+            <div class="contact-title">Пишите:</div>
+            <a href="mailto:mail@htmlacademy.ru" class="contact-value">mail@htmlacademy.ru</a>
+          </div>
+          <div class="contact">
+            <div class="contact-title">Приезжайте в гости:</div>
+            <div class="contact-value">ул. Большая<br>Конюшенная, 19/8</div>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+    <div id="google-map" class="map-container"></div>
+
+    <div class="footer-inner">
+      <div class="l-container flex-container">
+        <a href="index.html" class="footer-logo ">
+          <span class="svg-logotype_blue_tablet">Logotype</span>
+          <span class="svg-logotype_blue_desktop">Logotype</span>
+        </a>
+        <ul class="footer-social">
+          <li><a href="https://twitter.com/" class="social-btn svg-twitter" target="_blank">Twitter</a></li>
+          <li><a href="https://www.facebook.com/" class="social-btn svg-facebook" target="_blank">Facebook</a></li>
+          <li><a href="http://www.youtube.com/" class="social-btn svg-youtube" target="_blank">YouTube</a></li>
+        </ul>
+        <div class="footer-create">
+          Разработано
+          <a href="https://htmlacademy.ru" class="create-btn svg-htmlacademy" target="_blank">HTMLAcademy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
+  <script src="js/libs.min.js"></script> 
+  <script src="js/script.min.js"></script>
+  
+</body>
+</html>
